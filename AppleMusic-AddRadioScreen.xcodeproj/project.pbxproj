@@ -20,6 +20,9 @@
 		B1E339142796254D005B15B0 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E339132796254D005B15B0 /* Library.swift */; };
 		B1E3391627962576005B15B0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3391527962576005B15B0 /* LibraryView.swift */; };
 		B1E3391827962593005B15B0 /* LibraryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3391727962593005B15B0 /* LibraryInfo.swift */; };
+		B1E3391B279626A5005B15B0 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3391A279626A5005B15B0 /* RadioView.swift */; };
+		B1E3391D279626D1005B15B0 /* RadioPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3391C279626D1005B15B0 /* RadioPlaylist.swift */; };
+		B1E33920279626FB005B15B0 /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E3391F279626FB005B15B0 /* RadioStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		B1E339132796254D005B15B0 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		B1E3391527962576005B15B0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		B1E3391727962593005B15B0 /* LibraryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInfo.swift; sourceTree = "<group>"; };
+		B1E3391A279626A5005B15B0 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		B1E3391C279626D1005B15B0 /* RadioPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlaylist.swift; sourceTree = "<group>"; };
+		B1E3391F279626FB005B15B0 /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		B1E338F327961472005B15B0 /* AppleMusic-AddRadioScreen */ = {
 			isa = PBXGroup;
 			children = (
+				B1E339192796268F005B15B0 /* RadioSetup */,
 				B1E339122796252E005B15B0 /* LibrarySetup */,
 				B1E3390A27962342005B15B0 /* Models */,
 				B1E3390527962168005B15B0 /* MusicPlayer */,
@@ -124,6 +131,16 @@
 				B1E3391727962593005B15B0 /* LibraryInfo.swift */,
 			);
 			path = LibrarySetup;
+			sourceTree = "<group>";
+		};
+		B1E339192796268F005B15B0 /* RadioSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B1E3391A279626A5005B15B0 /* RadioView.swift */,
+				B1E3391C279626D1005B15B0 /* RadioPlaylist.swift */,
+				B1E3391F279626FB005B15B0 /* RadioStation.swift */,
+			);
+			path = RadioSetup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,12 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E3391B279626A5005B15B0 /* RadioView.swift in Sources */,
 				B1E3390427961FCE005B15B0 /* TabBar.swift in Sources */,
 				B1E3390E27962390005B15B0 /* ModelRadio.swift in Sources */,
 				B1E3390727962199005B15B0 /* MiniPlayer.swift in Sources */,
+				B1E3391D279626D1005B15B0 /* RadioPlaylist.swift in Sources */,
 				B1E33909279621BE005B15B0 /* BlurView.swift in Sources */,
 				B1E33911279623C2005B15B0 /* ModelRadioStation.swift in Sources */,
 				B1E3390C27962363005B15B0 /* ModelLibrary.swift in Sources */,
+				B1E33920279626FB005B15B0 /* RadioStation.swift in Sources */,
 				B1E338F727961472005B15B0 /* ContentView.swift in Sources */,
 				B1E338F527961472005B15B0 /* AppleMusic_AddRadioScreenApp.swift in Sources */,
 				B1E3391627962576005B15B0 /* LibraryView.swift in Sources */,
